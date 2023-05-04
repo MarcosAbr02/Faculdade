@@ -4,4 +4,4 @@ preco = float(input("Insira o preço do produto:"))
 percentual = float(input("Insira o valor percentual de desconto do produto:"))
 desconto = preco/100*percentual
 preco -= desconto
-print("O desconto é {} e o preço final do produto é {}".format(desconto, preco))
+print("O desconto é de {} e o preço final do produto é {}".format(desconto, preco))
