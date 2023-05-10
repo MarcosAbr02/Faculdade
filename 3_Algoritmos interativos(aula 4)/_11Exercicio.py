@@ -26,4 +26,4 @@ while True:
     else:
         print("Insira um valor válido!")
     print("A decomposição ficou:\n{} nota(s) de 100\n{} nota(s) de 50\n{} nota(s) de 20\n{} nota(s) de 10\n{} nota(s) de 5\n{} nota(s) de 1".format(nota100, nota50, nota20, nota10, nota5, nota1))
-print("Encerrando o programa....")
+print("Encerrando o programa...")
