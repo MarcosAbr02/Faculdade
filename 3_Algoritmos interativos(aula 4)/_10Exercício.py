@@ -1,5 +1,5 @@
 # Escreva um algoritmo que leia dois valores numéricos e que pergunte ao usuário qual operação ele deseja utilizar:
-# adição, subtração, multiplicação, divisão e sair.
+# Adição, subtração, multiplicação, divisão e sair.
 # Exiba na tela o resultado da operação desejada
 print("Bem vindo a minha calculadora!")
 while True:
