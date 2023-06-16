@@ -1,0 +1,3 @@
+Exercícios envolvendo estrutura de dados (ta mais pra variáveis compostas: tuplas, listas, dicionários e strings)
+Ví possibilidades de trativas de erros, mas vou me ater somente a esses tópicos mencionados pois foram bem complicados de entender.
+Exercícios marcados com (prof) foram resolvidos pelo professor
