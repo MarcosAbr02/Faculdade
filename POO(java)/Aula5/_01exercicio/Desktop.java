@@ -3,8 +3,8 @@ package _01exercicio;
 class Desktop extends Computador {
 	double acessorios;
 
-	public Desktop(int GbMemoria, int numProcessadores, double acessorios) {
-		super(GbMemoria, numProcessadores);
+	public Desktop(int gbMemoria, int numProcessadores, double acessorios) {
+		super(gbMemoria, numProcessadores);
 		this.acessorios = acessorios;
 	}
 
@@ -12,6 +12,6 @@ class Desktop extends Computador {
 	// como abstratos
 	@Override
 	public double calculaValor() {
-		return GbMemoria * 200 + numProcessadores * 400 + acessorios;
+		return gbMemoria * 200 + numProcessadores * 400 + acessorios;
 	}
 }

@@ -1,11 +1,11 @@
 package _01exercicio;
 
 abstract class Computador {
-	int GbMemoria;
+	int gbMemoria;
 	int numProcessadores;
 
-	public Computador(int GbMemoria, int numProcessadores) {
-		this.GbMemoria = GbMemoria;
+	public Computador(int gbMemoria, int numProcessadores) {
+		this.gbMemoria = gbMemoria;
 		this.numProcessadores = numProcessadores;
 	}
 

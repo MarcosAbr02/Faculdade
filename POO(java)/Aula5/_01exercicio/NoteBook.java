@@ -3,12 +3,12 @@ package _01exercicio;
 class NoteBook extends Computador {
 	int polegadasTela;
 
-	public NoteBook(int GbMemoria, int numProcessadores, int polegadasTela) {
-		super(GbMemoria, numProcessadores);
+	public NoteBook(int gbMemoria, int numProcessadores, int polegadasTela) {
+		super(gbMemoria, numProcessadores);
 		this.polegadasTela = polegadasTela;
 	}
-
+	 @Override
 	public double calculaValor() {
-		return GbMemoria * 250 + numProcessadores * 500 + polegadasTela * 100;
+		return gbMemoria * 250 + numProcessadores * 500 + polegadasTela * 100;
 	}
 }
