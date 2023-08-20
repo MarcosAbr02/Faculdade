@@ -136,6 +136,10 @@ public class main {
 			System.out.println("Encerrando o programa, tenha um ótimo dia!");
 			menu = false;
 			break;
+			
+		default:
+			System.out.println("digite um número de 1 a 5!");
+			break;
 			}
 		}
 		teclado.close();
