@@ -23,7 +23,7 @@ select  d.nome 'Nome da disciplina', avg(H.nota) 'Nota média'
 from disciplina d 
 inner join historico h
 on d.IdDisciplina = h.idDisciplina
-group by inome order by nome;
+group by nome order by nome;
  
  -- exibir ID e nome da disciplina
  SELECT 
